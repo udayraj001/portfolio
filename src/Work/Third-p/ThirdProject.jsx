@@ -1,12 +1,12 @@
 import React from "react";
-import project1 from "../../assets/project1.png";
-const FirstProject = () => {
+import third from "../../assets/third.png";
+const ThirdProject = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center bg-gradient-to-r from-white to-gray-100 p-8 rounded-lg shadow-lg space-y-8 lg:space-y-0 lg:space-x-8 ">
       {/* Left Image Section */}
       <div className="w-full lg:w-1/2">
         <img
-          src={project1}
+          src={third}
           alt="Fiskil product"
           className="rounded-lg shadow-md"
         />
@@ -15,24 +15,24 @@ const FirstProject = () => {
       {/* Right Text Section */}
       <div className="w-full lg:w-1/2 space-y-4">
         <h2 className="text-2xl font-bold text-black tracking-wider">
-          Wonderland{" "}
+          Streamify{" "}
           <span className="text-sm text-gray-700">
-            {"{"}Full Stack{"}"}
+            {"{"}Frontend{"}"}
           </span>
         </h2>
         <p className="text-gray-600 text-sm tracking-wide">
-          I built a full-stack web application combining React for an
-          interactive and responsive frontend with Django for a secure and
-          scalable backend. This modern tech stack ensures efficient
-          communication between the client and server, providing a seamless and
-          intuitive user experience. The integration of these technologies
-          enhances both performance and maintainability.{" "}
+          The Streamify frontend is built using React to deliver a sleek and
+          responsive user interface for streaming content. With intuitive
+          navigation and real-time API integration, it provides users with a
+          seamless experience for discovering and playing movies. The design
+          focuses on simplicity and speed, ensuring a smooth browsing experience
+          across all devices.{" "}
         </p>
 
         {/* Link Icon */}
         <div>
           <a
-            href="https://wonder-land-q5ie.vercel.app/"
+            href="https://streamify-frontend.vercel.app/"
             className="inline-flex items-center text-blue-800 text-lg hover:underline"
           >
             <svg
@@ -49,7 +49,7 @@ const FirstProject = () => {
                 d="M14 5l7 7m0 0l-7 7m7-7H3"
               ></path>
             </svg>
-            WonderLand-Travel
+            AnimalX-PetCare
           </a>
         </div>
 
@@ -57,10 +57,10 @@ const FirstProject = () => {
         <div className="flex flex-wrap gap-2">
           {[
             "React",
-            "Django",
-            "JWT",
-            "Django_Rest_framework",
-            "MySQL",
+            "Express Js",
+            "Node Js",
+            "MongoDB",
+            "Vercel",
             "TailwindCSS",
             "Figma",
             "Git",
@@ -78,4 +78,4 @@ const FirstProject = () => {
   );
 };
 
-export default FirstProject;
+export default ThirdProject;

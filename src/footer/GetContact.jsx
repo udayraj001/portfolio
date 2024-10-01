@@ -1,24 +1,30 @@
 import React from "react";
-import github from '../assets/github.png'
-import linkedin from '../assets/linkedin.png'
-import twitter from '../assets/twitter.png'
+import github from "../assets/github.png";
+import linkedin from "../assets/linkedin.png";
+import twitter from "../assets/twitter.png";
 
 const GetContact = () => {
   return (
     <div className="pt-3">
       <div className="items-center flex justify-center font-semibold">
-        <h1 className="p-2 border border-2 rounded-xl bg-slate-200 w-[125px] h-[28px] justify-center items-center flex size-3 size-2 md:w-[200px] md:h-[50px] md:text-2xl rounded-full">
+        <h1 className="p-2 border   bg-slate-200 w-[125px] h-[28px] justify-center items-center flex size-3  md:w-[200px] md:h-[50px] md:text-xl rounded-full">
           Get In Touch
         </h1>
       </div>
 
-      <div className="text-lg pt-4 md:text-3xl">
-        <p>The What's Next? Feel Free to reach out</p>
-        <p className="flex items-center justify-center ">
+      <div className="text-lg pt-4 md:text-xl mt-14 ">
+        <p className="flex items-center justify-center text-gray-600 ">
+          The What's Next? Feel Free to reach out
+        </p>
+        <p className="flex items-center justify-center text-gray-600 ">
           to me if you'r looking for a
         </p>
-        <p>developer, have a query, or simply want</p>
-        <p className="flex items-center justify-center ">to connect.</p>
+        <p className="flex items-center justify-center text-gray-600 ">
+          developer, have a query, or simply want
+        </p>
+        <p className="flex items-center justify-center text-gray-600 ">
+          to connect.
+        </p>
 
         <div className="pt-10 flex items-center justify-center gap-3  md:text-3xl">
           <svg
@@ -36,9 +42,7 @@ const GetContact = () => {
             />
           </svg>
 
-          <p className=" font-semibold">
-            udayrajghorpade2503@gmail.com
-          </p>
+          <p className=" font-semibold">udayrajghorpade2503@gmail.com</p>
         </div>
 
         <div className="pt-2 flex items-center justify-center gap-3  md:text-3xl">
@@ -64,39 +68,43 @@ const GetContact = () => {
           <p className="flex items-center justify-center pt-10">
             You may also find me on this platforms.
           </p>
-<div className="flex w-full items-center justify-center gap-5 pt-5">
-          <div>
-            <a href="https://github.com/udayraj001" target="_blank">
-              <img
-                src={github}
-                alt="GitHub Logo"
-                className="w-[px50] h-[50px]"
-              />
-            </a>
+          <div className="flex w-full items-center justify-center gap-5 pt-5">
+            <div>
+              <a href="https://github.com/udayraj001" target="_blank">
+                <img
+                  src={github}
+                  alt="GitHub Logo"
+                  className="w-[px50] h-[50px]"
+                />
+              </a>
+            </div>
+
+            <div>
+              <a
+                href="https://www.linkedin.com/in/udayraj-ghorpade/"
+                target="_blank"
+              >
+                <img
+                  src={linkedin}
+                  alt="GitHub Logo"
+                  className="w-[px50] h-[50px]"
+                />
+              </a>
+            </div>
+
+            <div>
+              <a href="https://x.com/ud2503" target="_blank">
+                <img
+                  src={twitter}
+                  alt="GitHub Logo"
+                  className="w-[px50] h-[50px]"
+                />
+              </a>
+            </div>
           </div>
-
-          <div>
-            <a href="https://www.linkedin.com/in/udayraj-ghorpade/" target="_blank">
-              <img
-                src={linkedin}
-                alt="GitHub Logo"
-                className="w-[px50] h-[50px]"
-              />
-            </a>
-          </div>
-
-          <div>
-            <a href="https://x.com/ud2503" target="_blank">
-              <img
-                src={twitter}
-                alt="GitHub Logo"
-                className="w-[px50] h-[50px]"
-              />
-            </a>
-          </div>
-
-
-</div>
+        </div>
+        <div className="flex items-center justify-center mt-36 gap-4 text-sm">
+          <h1 className="text-gray-500">2024 | Designed and Coded with ❤ by Udayraj..</h1>
         </div>
       </div>
     </div>

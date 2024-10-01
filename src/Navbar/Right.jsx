@@ -179,7 +179,7 @@ const Right = () => {
 
   return (
     <div className="">
-      <div className="w-auto hidden sm:flex ">
+      <div className="w-auto hidden sm:flex md:pr-16">
         <a
           href="#about"
           className="text-grey-600 hover:text-gray-300 px-5 font-semibold pt-2 scroll-smooth"
