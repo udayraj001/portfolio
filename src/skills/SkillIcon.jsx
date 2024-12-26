@@ -22,7 +22,7 @@ import bootstrapIcon from "../assets/bootstrap.png";
 import nextIcon from '../assets/nextjs.png'
 import jiraIcon from '../assets/jira-original.png'
 import dockerIcon from '../assets/docker.png'
-import kubernetesIcon from '../assets/Kubernetes.png'
+import kubernetesIcon from '../assets/kubernetes.png'
 
 const SkillIcon = () => {
   return (
