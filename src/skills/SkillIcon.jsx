@@ -19,6 +19,10 @@ import djangoIcon from "../assets/django.png";
 import cIcon from "../assets/c.png";
 import cockroachIcon from "../assets/cockroach.png";
 import bootstrapIcon from "../assets/bootstrap.png";
+import nextIcon from '../assets/nextjs.png'
+import jiraIcon from '../assets/jira-original.png'
+import dockerIcon from '../assets/docker.png'
+import kubernetesIcon from '../assets/Kubernetes.png'
 
 const SkillIcon = () => {
   return (
@@ -27,6 +31,10 @@ const SkillIcon = () => {
         <div className="flex flex-col items-center">
           <img src={reactIcon} alt="React Icon" className="w-auto h-auto" />
           <p className="mt-2 text-center">React.js</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img src={nextIcon} alt="React Icon" className="w-[73px] h-[73px]" />
+          <p className=" text-center">Next.js</p>
         </div>
         <div className="flex flex-col items-center">
           <img
@@ -131,6 +139,30 @@ const SkillIcon = () => {
             className="w-[74px] h-[66px]"
           />
           <p className="mt-2 text-center">Bootstrap</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            src={jiraIcon}
+            alt="Fifth Icon"
+            className="w-[74px] h-[66px]"
+          />
+          <p className="mt-2 text-center">Jira</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            src={dockerIcon}
+            alt="Fifth Icon"
+            className="w-[74px] h-[66px]"
+          />
+          <p className="mt-2 text-center">Docker</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <img
+            src={kubernetesIcon}
+            alt="Fifth Icon"
+            className="w-[74px] h-[66px]"
+          />
+          <p className="mt-2 text-center">Kubernetes</p>
         </div>
       </div>
     </div>
